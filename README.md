@@ -7,6 +7,8 @@ Instruções:
 
 WASD move a camera, TAB muda o cubo selecionado, tambem é possivel usar o botão direito do mouse para selecionar o objeto agora, R modo de rotação usando as teclas X,Y,Z para rotacionar, T modo de translatação usando as teclas I,K,J,L,U,O para translatar a posição do selecionado, E para escalar usando UP e DOWN para aumentar ou diminuir a escala, P para perspectiva ortografica ou camera, e M para modo wireframe, 1 e 2 movem a luz.
 
+para compilar é necessario mingw, glm, opengl, biblioteca stb_image (já inclusa), json nlohmann (já incluso), glad gerada e cmake, alem de uma variavel de path para o visual code.
+
 Detalhes tecnicos:
 
 STB_IMAGE usado para carregar arquivos de imagens e enviar para o processamento como textura, JSON é responsavel por utilizar a biblioteca nlohmann que permite configurar uma cena de maneira intuitiva e sem necessidade de compilar, tornando ela menos hardcoded.
