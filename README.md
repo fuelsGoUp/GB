@@ -7,7 +7,11 @@ Instruções:
 
 WASD move a camera, TAB muda o cubo selecionado, tambem é possivel usar o botão direito do mouse para selecionar o objeto agora, R modo de rotação usando as teclas X,Y,Z para rotacionar, T modo de translatação usando as teclas I,K,J,L,U,O para translatar a posição do selecionado, E para escalar usando UP e DOWN para aumentar ou diminuir a escala, P para perspectiva ortografica ou camera, e M para modo wireframe, 1 e 2 movem a luz.
 
-para compilar é necessario mingw, glm, opengl, biblioteca stb_image (já inclusa), json nlohmann (já incluso), glad gerada e cmake, alem de uma variavel de path para o visual code.
+para compilar é necessario msys2, glm, opengl, biblioteca stb_image (já inclusa), json nlohmann (já incluso), glad gerada e cmake, alem de uma variavel de path para o visual code.
+
+Exemplo de uso:
+
+O programa já vem com uma situação simulada de uso, um json de cena pronta, pode ser modificado sem compilar para rodar o programa, para compilar com cmake, primeiro digite ctrl + shift + p para abrir a aba de comando no vscode, selecione scan for kits e depois select kit com o compilador gcc, apos isso use o comando build para o cmake criar uma pasta com o executavel, e então entre na pasta build pelo terminal no vscode usando o comando cd build e execute o compilado.
 
 Detalhes tecnicos:
 
